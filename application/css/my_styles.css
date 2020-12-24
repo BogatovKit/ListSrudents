@@ -1,0 +1,45 @@
+
+a.t-col-href {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  /*padding: 0px 5%;*/
+}
+
+.footer .my-center {
+  display: block; 
+  height: 23px;
+  margin: 53px 0;
+}
+
+.footer-icon {
+  font-size: 25px;
+}
+
+.footer ul li a{
+  display: flex;
+  padding-bottom: 5px;
+};
+
+.footer ul li a span{
+  margin: auto;
+}
+
